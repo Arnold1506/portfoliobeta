@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate web Developer having experience of building web applications using Reactjs, Nodejs JavaScript"
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,9 +45,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Database Mangement of Web Applications"),
-    emoji(
-      "⚡ Integration of third party services such as Google Cloud"
-    )
+    emoji("⚡ Integration of third party services such as Google Cloud")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -102,7 +99,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fab fa-java"
-    },
+    }
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "fab fa-docker"
@@ -116,13 +113,12 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    
     {
       schoolName: "Mumbai University",
       logo: require("./assets/images/MumbaiUniversitylogo.png"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "2019 - 2023",
-      desc: "Member of IEEE TechWeb Team",
+      desc: "Member of IEEE TechWeb Team"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
